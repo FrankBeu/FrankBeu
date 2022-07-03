@@ -1,0 +1,21 @@
+* FrankBeu
+** badges
+
+https://github.com/badges/awesome-badges
+
+https://github.com/badges/shields
+
+https://shields.io/
+
+https://github.com/alexandresanlim/Badges4-README.md-Profile
+*** logos
+
+https://simpleicons.org/
+
+https://github.com/badges/shields/blob/master/doc/logos.md
+**** convert svg to data-url
+#+BEGIN_SRC shell :results drawer
+echo "data:image/svg+xml;base64,$(cat INPUT.svg | base64 | tr -d '\r\n')" > OUTPUT.txt
+#+END_SRC
+**** fiber
+https://gofiber.io/assets/images/logo.svg
